@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+          <title>advanced_search</title>
+      <style>
+
+        .navbar> a{
+          margin-left:30px;
+          margin-right:30px;
+          color: blue ;
+           }
+
+      #top{
+
+        border-bottom: 1px solid black;
+        border-bottom-color:#e6e6ff;
+        height: 60px;
+        font-size: 20px;
+        font-weight: lighter;
+        padding-left: 60px;
+        color: #cb3434;
+        font-weight: bold;
+      }
+      p,label{
+        padding-left: 60px;
+      }
+
+      button{
+
+        position: absolute;
+        top: 80%;
+        left: 58%;
+        transform: translate(-50%, -50%);
+        width: 150px;
+      }
+        </style>
+
+    </head>
+    <body>
+    <!-- As a heading -->
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="C:\Users\Botta\github\search\index.html">Google</a>
+    </nav>
+    <br>
+
+    <p id="top"> Advanced Search </p>
+
+    <p> Find pages with... </p>
+    <div>
+      <form action="https://www.google.com/search">
+         <label for="male" style="margin-top:20px">all these words:</label>
+          <input type="text" name="as_q" style="margin-left:200px; width:500px;">
+          <br>
+          <label for="male" style="margin-top:30px">this exact word or phrase:</label>
+           <input type="text" name="as_epq" style="margin-left:128px; width:500px">
+           <br>
+           <label for="male" style="margin-top:30px">any of these words:</label>
+            <input type="text" name="as_oq" style="margin-left:170px; width:500px">
+            <br>
+            <label for="male" style="margin-top:30px">none of these words</label>
+             <input type="text" name="as_eq" style="margin-left:160px; width:500px">
+             <br>
+             <button type="submit" class="btn btn-primary" >Advanced Search</button>
+
+      </form>
+    </div>
+
+    </body>
+</html>
